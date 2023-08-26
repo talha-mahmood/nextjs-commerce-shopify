@@ -10,5 +10,5 @@ export default async function Cart(request: NextRequest) {
     cart = await getCart(cartId);
   }
 
-  return <CartModal cart={cart} />;
+  return <CartModal cart={cart} />
 }
